@@ -5,13 +5,8 @@
 name: Run Matlab tests
 
 on:
-  push:
+# push:
   workflow_dispatch:
-#  pull_request:
-#
-#defaults:
-#  run:
-#    working-directory: pyat
 
 jobs:
   matlab_tests:
