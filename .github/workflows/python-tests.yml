@@ -6,7 +6,6 @@ name: Build Python extension and run tests
 
 on:
   push:
-  pull_request:
 
 jobs:
   build_and_run_tests:
